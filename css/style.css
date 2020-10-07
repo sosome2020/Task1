@@ -73,7 +73,7 @@ ul.top_menu {
    background-color : # 4D4D4D ;
 }
 .footer{
-  width: 100%;
+  width: 77%;
   height: 100px;
   position: absolute;
   bottom: 0;
@@ -92,31 +92,31 @@ ul.top_menu {
   display: block;
   clear: both;
 }
-.Name {
-  background-color: yellow;
-  margin-top: 20px;
-  margin-right: 10px;
-  margin-bottom: 20px;
-  margin-left: 10px;
+.send_button {
+  background-color:;
+  text-align: center;
 }
-.Name {
-  background-color: yellow;
-  margin: 20px 10px;
+
+.content{
+  text-align:left;
 }
+
 .Name{
-  margin,padding: 20px;
-  #content2 {
-  background-color: red;
-  padding-top: 20px;
-  padding-right: 10px;
-  padding-bottom: 20px;
-  padding-left: 10px;
+  padding-left:20px;
 }
-.Name {
-  background-color: red;
-  padding: 20px 10px 20px 10px;
+.send_button {
+    background-color:skyblue;
+    color: white;
+    display: block;
+    margin: 0 auto;
+    transition: .4s;
+    width: 70px;
 }
-.Name {
-  background-color: red;
-  padding: 20px 10px;
+.send_button:hover {
+    background: #008000;
+    color: white;
+}
+
+.side_menu li:hover{
+  opacity: 0.6;
 }

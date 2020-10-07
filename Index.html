@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html>
+
 <head>
   <meta charset="UTF-8">
   <link rel="stylesheet" href="./css/normalize.css">
@@ -7,6 +8,7 @@
   <title>株式会社DIVE</title>
 </head>
 <body>
+
   <header class="header clearfix">
     <a href="index.html">
       <img src="./images/logo.png" class="logo_image">
@@ -20,34 +22,52 @@
       </ul>
     </nav>
   </header>
+
   <img src="./images/contact.png" class="contact_image">
   <aside class="side_menu">
     <nav>
       <ul>
         <li><a href="#">事業Content</a></li>
         <li><a href="#">会社概要</a></li>
-        <li><a href="#">Contact Us</a></li>
+        <li class="contact"><a href="#">Contact Us</a></li>
       </ul>
     </nav>
   </aside>
+
   <article class="content">
-
+    <form action="">
+      <table>
+        <div>
+        <tr>
+          <td style="padding-left: 50px">Name</td>
+          <td><input type="text", style="width: 480px"></td>
+        </tr>
+        </div>
+        <tr>
+          <td style="padding-left: 50px">Email</td>
+          <td><input type="text", style="width: 480px;"></td>
+        </tr>
+        <tr>
+          <td style="padding-left:50px">Sex</td>
+          <td><input type="checkbox", style="width:"> Male
+              <input type="checkbox"> Female
+          </td>
+        </tr>
+        <tr>
+          <td style="width: 150px; padding-left:50px; height:112px">Content of <br> inquiry</td>
+          <td><input type="text", style="width: 480px;"></td>
+        </tr>
+        <tr>
+          <td colspan="2">
+          <button href="#" class="send_button">Send</button>
+        </td>
+        </tr>
+    </form>
   </article>
-  <form action="">
 
-      Name <input type="text", style="width: 480px;">
-      <p></p>
-      email <input type="password", style="width: 480px">
-      <p>Sex</p>
-      <input type="checkbox">
-
-      Content of inquiry <input type="text", style="width: 480px;">
-      <p></p>
-
-      <input type="submit" class="submit" value="send">
-  </form>
   <footer class="footer">
      <p>Copyright © 2018 DIVE INC All RIGHTS RESERVED.</p>
   </footer>
+
 </body>
 </html>
