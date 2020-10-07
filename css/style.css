@@ -16,6 +16,7 @@ li {
   background-color: #F5B4B3;
   height: 50px;
   font-size: 1.5rem;
+  margin-top: 20px;
 }
 .top_menu li {
   float: left;
@@ -74,14 +75,15 @@ ul.top_menu {
 }
 .footer{
   width: 77%;
-  height: 100px;
+  height: 80px;
   position: absolute;
   bottom: 0;
   background-color: #4D4D4D;
   display: table;
+  margin-bottom:10px
 }
 .footer p {
-  font-size: 1rem;
+  font-size: 2rem;
   color: #fff;
   text-align: center;
   vertical-align: middle;
@@ -99,6 +101,7 @@ ul.top_menu {
 
 .content{
   text-align:left;
+  font-size: large;
 }
 
 .Name{
@@ -119,4 +122,7 @@ ul.top_menu {
 
 .side_menu li:hover{
   opacity: 0.6;
+}
+.container{
+  padding-top:10px;
 }
